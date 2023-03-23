@@ -7,7 +7,7 @@
 <!-- "Colocar sua imagens demo aqui" -->
 
 <div align="center">
-  <img src="./src/assets/1.png" width="" heigth="">
+  <img src="./src/assets/1.PNG" width="700" heigth="700">
 
 </div>
 
