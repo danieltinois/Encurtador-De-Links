@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(20, 25, 61) 52%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -5%;
+}
+
+.container h1 {
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.boxInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.inputUrl {
+  width: 600px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding: 0 50px;
+  font-size: 30px;
+  margin: 0 10px;
+  user-select: all;
+}
+
+.btnClean {
+  border: none;
+  background: transparent;
+  position: relative;
+  right: 60px;
+  top: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border: none;
+  background: #ffffff;
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+  margin: 0 10px;
+  background: rgb(255, 187, 0);
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: #030127;
+  color: #ffffff;
+}
